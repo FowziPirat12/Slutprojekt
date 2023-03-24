@@ -1,0 +1,48 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+    ". header ."
+    ". form ." 
+    ". p ."
+
+    ;
+
+    padding: 8px;
+}
+
+header{
+    grid-area: header;
+    text-align: center;
+}
+
+form{
+    grid-area: form;
+    margin:auto;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 1em;
+    padding: 4em;
+}
+
+input{
+    border-radius: 10px;
+    font-size: 44px;
+}
+
+p{
+    grid-area: p;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+
+}
