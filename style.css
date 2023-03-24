@@ -1,15 +1,16 @@
-body{
+#hb{
+    background: linear-gradient( to left ,rgb(52, 248, 255), rgb(22, 255, 177)) ;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas: 
     ". header ."
     ". form ." 
-    ". p ."
-
+    
     ;
 
     padding: 8px;
 }
+
 
 header{
     grid-area: header;
@@ -22,17 +23,21 @@ form{
     border-width: 3px;
     border-style: solid;
     border-radius: 1em;
-    padding: 4em;
+    padding: 1em;
 }
 
 input{
     border-radius: 10px;
-    font-size: 44px;
+    font-size: 20px;
+}
+
+label{
+    font-size: 20px;
 }
 
 p{
-    grid-area: p;
-    font-size: 40px;
+
+    font-size: 30px;
     text-align: center;
 
 }
