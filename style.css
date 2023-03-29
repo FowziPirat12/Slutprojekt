@@ -1,5 +1,5 @@
 #hb{
-    background: linear-gradient( to left ,rgb(52, 248, 255), rgb(22, 255, 177)) ;
+    background-image: url(https://i.pinimg.com/originals/aa/30/e5/aa30e594cdfd1f16b7bbcb1241bf0c40.jpg);
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas: 
@@ -7,7 +7,7 @@
     ". form ." 
     
     ;
-
+    font-size:20px;
     padding: 8px;
 }
 
@@ -32,14 +32,7 @@ input{
 }
 
 label{
-    font-size: 20px;
-}
-
-p{
-
     font-size: 30px;
-    text-align: center;
-
 }
 
 
