@@ -1,10 +1,11 @@
 #hb{
-    background-image: url(https://i.pinimg.com/originals/aa/30/e5/aa30e594cdfd1f16b7bbcb1241bf0c40.jpg);
+    background-image: url(https://i.pinimg.com/originals/cd/eb/d3/cdebd315136a6ef1bc98403d7acc83b2.jpg);
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas: 
     ". header ."
     ". form ." 
+    
     
     ;
     font-size:20px;
@@ -24,6 +25,7 @@ form{
     border-style: solid;
     border-radius: 1em;
     padding: 1em;
+
 }
 
 input{
