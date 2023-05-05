@@ -79,15 +79,52 @@ nav a{
 }
 
 #tech{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 19%;
     width: 50%;
+    
 }
+
+#class{
+    background-color: rgb(172, 172, 255);
+}
+
+main{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+
+    border-style: solid;
+    border-radius: 20px;
+    border
+}
+
+
+
 
 .img2{
     width: 600px;
     height: 330px;
 }
+
+.img4{
+    width: 600px;
+    height: 370px;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.img5{
+    width: 600px;
+    height: 330px;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0%;
+}
+
+
+
 
 
 
