@@ -52,7 +52,7 @@ label{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    background-color:antiquewhite;
+    background-color:rgb(215, 227, 250);
 
 }
 
@@ -93,8 +93,8 @@ nav a{
 }
 
 
-#class{
-    background-color: rgb(172, 172, 255);
+body{
+    background-color: rgb(172, 225, 255);
 }
 
 #teknik{
@@ -132,6 +132,65 @@ nav a{
     border-width: 1px;
     text-align: center;
     margin: 0%;
+}
+
+
+table:nth-child(1){
+    border-spacing: 0;
+    
+}
+
+th,td{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+th{
+    background-color:aquamarine;
+}
+
+th:nth-child(1){
+    text-align: left;
+}
+
+th:nth-child(2){
+    text-align:center;
+}
+
+th:nth-child(3){
+    text-align: center;
+}
+
+th:nth-child(4){
+    text-align: right;
+}
+
+td:nth-child(1){
+    text-align: left;
+}
+
+td:nth-child(2){
+    text-align: center;
+}
+
+td:nth-child(3){
+    text-align: center;
+}
+
+td:nth-child(4){
+    text-align: right;
+}
+
+tr:nth-child(odd){
+    background-color: white;
+}
+
+tr:nth-child(even){
+    background-color:aquamarine;
+}
+
+table:nth-child(2){
+    border-spacing: 0px;
 }
 
 
