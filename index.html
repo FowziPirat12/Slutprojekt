@@ -17,15 +17,21 @@
     </header>
 
     <main>
-      <form action="sida2.html"> 
-      <label for="uname"><br>Användar namn:</br></label>
-      <input type="text" placeholder="Skriv in vad som helst"  placeholder name="uname" required></input><br>
+<form action="sida2.html" method="POST"> 
+  <div>
+    <label for="uname">Användarnamn:</label>
+    <input type="text" id="uname" name="uname" placeholder="Skriv in användarnamn" required>
+  </div>
 
-      <label for="psw"><br>Lösenord:</br></label>
-      <input type="password" placeholder="Skriv in vad som helst "  placeholder name="psw" required></input><br>
-      
-      <button type="submit">Logga in</button>
-    </form>
+  <div>
+    <label for="psw">Lösenord:</label>
+    <input type="password" id="psw" name="psw" placeholder="Skriv in lösenord" required>
+  </div>
+  
+  <div>
+    <button type="submit">Logga in</button>
+  </div>
+</form>
     </main>
 
   </body>
