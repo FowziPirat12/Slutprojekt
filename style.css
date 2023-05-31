@@ -150,35 +150,15 @@ th{
     background-color:aquamarine;
 }
 
-th:nth-child(1){
+th:nth-child(1), td:nth-child(1){
     text-align: left;
 }
 
-th:nth-child(2){
+th:nth-child(2),th:nth-child(3),td:nth-child(2),td:nth-child(3) {
     text-align:center;
 }
 
-th:nth-child(3){
-    text-align: center;
-}
-
-th:nth-child(4){
-    text-align: right;
-}
-
-td:nth-child(1){
-    text-align: left;
-}
-
-td:nth-child(2){
-    text-align: center;
-}
-
-td:nth-child(3){
-    text-align: center;
-}
-
-td:nth-child(4){
+th:nth-child(4), td:nth-child(4){
     text-align: right;
 }
 
@@ -191,12 +171,33 @@ tr:nth-child(even){
 }
 
 
+a:link{
+    color: navy;
+}
+
+a:visited{
+    color:blueviolet;
+}
+
+a:focus{
+    color: rgb(255,0,0);
+}
+
+a:hover{
+    color: #0000ff;
+}
+
+a:active{
+    color:green;
+}
 
 
 footer{
     margin-top: 100px;
     
 }
+
+
 
 
 
