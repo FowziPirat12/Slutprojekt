@@ -1,29 +1,28 @@
-<!DOCTYPE html>
-<html lang="sv">
-  <head>
-    <title>Teknik</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">    
-
+<!DOCTYPE html> <!-- Deklarerar att den skrivs på html5-->
+<html lang="sv"> <!--Vilket språk koden uppfattar-->
+  <head><!--Huvudsection-->
+    <title>Teknik</title><!--Webbsidans titel-->
+    <meta charset="UTF-8"> <!--Om man inte skriver UTF-8 riskerar man att hamna på quirkmode (90talet)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--För mobila enheter-->
+    <link href="style.css" rel="stylesheet"> <!--Länkar till en extern css-fil-->
   </head>
 
-  <body id="wrapper">
-    <header>
-      
-      <h1>Välkommen!</h1>
-      <p>Logga in här:</p>
-
+  <body id="wrapper"> <!--Dokumentetskroppsinnehåll med en id-attribute-->
+    <header> <!--Sidhuvud-->
+      <h1>Välkommen!</h1> <!--Rubrik för en sida-->
+      <p>Logga in här:</p> <!--Paragraf för att strukturera och visa text-->
     </header>
     
-    <main>
+    <main> <!--Sidhuvudinnehåll på en sida-->
       
-      <form action="Startsida.html" method="post"> 
-        <label for="text"><br>Användar namn:<br></label>
-        <input id="text" type="text" placeholder="Skriv in vad som helst"   name="uname" required><br>
+      <form action="Startsida.html" method="post"> <!--En formulär som länkar till en annan webbsida med hjälp av metoden POST.-->
+        <label for="text"><br>Användar namn:<br></label> <!--Etikett för en inmatningsruta där användaren kan skriva in sitt användarnamn-->
+        <input id="text" type="text" placeholder="Skriv in vad som helst"   name="uname" required><br> 
+        
+         <!--En formulär med textarea, checkbox, text, radio och en inloggning -->
 
-        <label for="psw"><br>Lösenord:<br></label>
-        <input id="psw" type="password" placeholder="Skriv in vad som helst "  name="psw" required><br>
+        <label for="psw"><br>Lösenord:<br></label> 
+        <input id="psw" type="password" placeholder="Skriv in vad som helst "  name="psw" required><br> 
 
         <label for="text">Kom ihåg mig</label>
         <input id="komihåg" type="checkbox" name="komihåg"><br><br> 
@@ -41,10 +40,10 @@
 
 
       
-        <input type="submit" value="Logga in"> 
+        <input type="submit" value="Logga in">   <!--Definerar en skickad knapp-->
         
       </form>
     </main>
 
-  </body>
-</html>
+  </body>  <!--SLuttag för sidans innehåll-->
+</html>  <!--Sluttagen för html-dokumentet-->
