@@ -70,12 +70,12 @@ nav ul{ /*En ul-element innuti en nav-element, en grid med olika stillmallar fö
     margin: 0%;
 }
 
-nav li{ /**/
+nav li{ /*li-element innuti en nav element, olika stilmallar för list-style, textjustering och fontstorlek*/
     list-style: none;
     text-align: center;
     font-size: 1.5em;
 }
-nav a{
+nav a{ 
     text-decoration: none;
 }
 
@@ -84,13 +84,13 @@ iframe{ /*En iframe-element med en höjd och bredd*/
     height: 150px;
 }
 
-#tech{
+#tech{ /*id-attrubute med namnet tech, olika stilmallar för marginal, textjustering*/
     margin-left: 22%;
     width: 50%;
     text-align:center;
 }
 
-.img1{
+.img1{ /*element med klassen "img1", olika stilmallar för marginal, bredd och höjd*/
     margin-left: 20px;
     width: 40vw;
     height: 70vh;
@@ -98,12 +98,12 @@ iframe{ /*En iframe-element med en höjd och bredd*/
 }
 
 
-body{
-    
+body{ /*En body-element med en bakgrundsfärg och en grid*/
+    display: grid;
     background-color: rgb(172, 225, 255);
 }
 
-#teknik{
+#teknik{ /*id-attribute med namnet "teknik", en grid med 2 kolumner, en border och en border-raidus*/
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
@@ -114,12 +114,12 @@ body{
 }
 
 
-.img2{
+.img2{ /*element med klassen "img2", höjd och bredd */
     width: 600px;
     height: 330px;
 }
 
-.img4{
+.img4{ /**/
     width: 600px;
     height: 370px;
     border-style: solid;
@@ -173,7 +173,7 @@ th:nth-child(1), td:nth-child(1){
     text-align: left;
 }
 
-th:nth-child(2),th:nth-child(3),td:nth-child(2),td:nth-child(3) {
+th:nth-child(2),th:nth-child(3),td:nth-child(2),td:nth-child(3){
     text-align:center;
 }
 
@@ -190,23 +190,23 @@ tr:nth-child(even){
 }
 
 
-a:link{
+a:link{ /*LoVe Focus HAte*/
     color: navy;
 }
 
-a:visited{
+a:visited{ /*LoVe Focus HAte*/
     color:blueviolet;
 }
 
-a:focus{
+a:focus{ /*LoVe Focus HAte*/
     color: rgb(255,0,0);
 }
 
-a:hover{
+a:hover{/*LoVe Focus HAte*/
     color: #0000ff;
 }
 
-a:active{
+a:active{ /*LoVe Focus HAte*/
     color:green;
 }
 
