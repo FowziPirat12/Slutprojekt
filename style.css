@@ -119,7 +119,7 @@ body{ /*En body-element med en bakgrundsfärg och en grid*/
     height: 330px;
 }
 
-.img4{ /**/
+.img4{ /*Element med klassen "img4", olika stilmallar för bredd och höjd, border och textjustering*/
     width: 600px;
     height: 370px;
     border-style: solid;
@@ -128,7 +128,7 @@ body{ /*En body-element med en bakgrundsfärg och en grid*/
     text-align: center;
 }
 
-.img5{
+.img5{/*Element med klassen "img5", olika stilmallar för bredd och höjd, border och textjustering och marginal*/
     width: 600px;
     height: 380px;
     border-style: solid;
@@ -139,7 +139,7 @@ body{ /*En body-element med en bakgrundsfärg och en grid*/
 }
 
 
-#övrigt{
+#övrigt{ /*Element med id-attribute, en grid med2 columner och en border */
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr ;
@@ -149,43 +149,43 @@ body{ /*En body-element med en bakgrundsfärg och en grid*/
 }
 
 
-ol li{
+ol li{ /*numrerad lista med text-färgen */
     color: rgb(8, 3, 8);
 }
 
 
 
-table{
+table{ /*Tabell med avtånd mellan cellerna*/
     border-spacing: 0px;
     
 }
 
-th,td{
+th,td{ /*egenskaper för th- och td element, olika stilmallar för border*/
     border: 1px solid black;
     border-radius: 1px;
 }
 
-th{
+th{ /*Bakgrundsfärg*/
     background-color:aquamarine;
 }
 
-th:nth-child(1), td:nth-child(1){
+th:nth-child(1), td:nth-child(1){ /*textjustering för första th och första td*/
     text-align: left;
 }
 
-th:nth-child(2),th:nth-child(3),td:nth-child(2),td:nth-child(3){
+th:nth-child(2),th:nth-child(3),td:nth-child(2),td:nth-child(3){ /*textjustering för andra th,tredje th, andra td och tredje td */
     text-align:center;
 }
 
-th:nth-child(4), td:nth-child(4){
+th:nth-child(4), td:nth-child(4){ /*textjustering för fjärde th och fjärde td*/
     text-align: right;
 }
 
-tr:nth-child(odd){
+tr:nth-child(odd){ /*egenskap för ojämn rad i tabell och en bakgrundsfärg*/
     background-color: white;
 }
 
-tr:nth-child(even){
+tr:nth-child(even){ /*egenskap för jämn rad i tabell och en bakgrundsfärg*/
     background-color:aquamarine;
 }
 
@@ -210,9 +210,9 @@ a:active{ /*LoVe Focus HAte*/
     color:green;
 }
 
-footer{
+footer{ /*egenskap för footer-element*/
     margin-top: 100px;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px){ /*egenskap för mobila-enheter*/
 }
