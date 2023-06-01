@@ -62,6 +62,7 @@ nav{
     border-radius: 10px;
     
 }
+
 iframe{
     width="560" 
     height="315"
@@ -114,9 +115,6 @@ body{
 }
 
 
-
-
-
 .img2{
     width: 600px;
     height: 330px;
@@ -140,6 +138,18 @@ body{
     text-align: center;
     margin: 0%;
 }
+
+
+.övrigt{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    border-style: solid;
+    border-radius: 5px; 
+}
+
+
+
 
 
 table{
@@ -197,17 +207,9 @@ a:active{
     color:green;
 }
 
-
 footer{
     margin-top: 100px;
-    
 }
-
-
-
-
 
 @media screen and (max-width: 800px){
-
 }
-
