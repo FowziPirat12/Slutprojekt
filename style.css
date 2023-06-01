@@ -63,14 +63,14 @@ nav{ /*Nav-element med olika stilmallar för border,  border-radius och en grid-
 
 
 
-nav ul{ 
+nav ul{ /*En ul-element innuti en nav-element, en grid med olika stillmallar för padding och margin*/
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 0%;
     margin: 0%;
 }
 
-nav li{
+nav li{ /**/
     list-style: none;
     text-align: center;
     font-size: 1.5em;
