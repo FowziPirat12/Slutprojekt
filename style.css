@@ -1,4 +1,4 @@
-#wrapper{
+#wrapper{ /*En id-selektor med en bakgrundslänk och en grid runt header, form, nav*/
     background-image: url(https://i.pinimg.com/originals/cd/eb/d3/cdebd315136a6ef1bc98403d7acc83b2.jpg);
     display: grid;
     grid-template-rows: 1fr 2fr 1fr 1fr;
@@ -11,14 +11,14 @@
     padding: 8px;
 }
 
-header{
+header{ /*Grid för header och texten centreras*/
     grid-area: header;
     text-align: center;
 }
 
 
 
-form{
+form{ /*Grid för formulären med en border, marginal, centrerade texter, bredd, höjder och annat*/
     grid-area: form;
     margin:auto;
     border-width: 3px;
@@ -31,7 +31,7 @@ form{
 
 }
 
-input{
+input{ /*En label-element med en border, fontstorlek*/
     border-radius: 10px;
     font-size: 20px;
 }
