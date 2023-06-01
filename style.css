@@ -36,13 +36,13 @@ input{ /*En label-element med en border, fontstorlek*/
     font-size: 20px;
 }
 
-label{
+label{ /*En label-element med en fontstorlek*/
     font-size: 30px;
 }
 
 
 
-#container{
+#container{ /*Element med id="container oloka stilmallar för bred,padding marginal, textjustering, bredd, höjd och bakgrundsfärg*/
     border-style: groove;
     border-radius: 10px;
     padding: 0%;
@@ -52,22 +52,18 @@ label{
     margin-right: auto;
     width: 50%;
     background-color:rgb(215, 227, 250);
-
 }
 
-nav{
+
+nav{ /*Nav-element med olika stilmallar för border,  border-radius och en grid-area*/
     grid-area: nav;
     border-style:groove;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
 
-iframe{
-    width: 300px;
-    height: 150px;
-}
 
-nav ul{
+
+nav ul{ 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 0%;
@@ -83,6 +79,10 @@ nav a{
     text-decoration: none;
 }
 
+iframe{ /*En iframe-element med en höjd och bredd*/
+    width: 300px;
+    height: 150px;
+}
 
 #tech{
     margin-left: 22%;
