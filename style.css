@@ -1,12 +1,12 @@
 #wrapper{ /*En id-selektor med en bakgrundslänk och en grid runt header, form, nav*/
     background-image: url(https://i.pinimg.com/originals/cd/eb/d3/cdebd315136a6ef1bc98403d7acc83b2.jpg);
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-columns: auto;
     grid-template-areas: 
-    "header"
+    "header"    
     "form"
-    "nav";
+;
     font-size:20px;
     padding: 8px;
 }
@@ -100,16 +100,24 @@ iframe{ /*En iframe-element med en höjd och bredd*/
 
 body{ /*En body-element med en bakgrundsfärg och en grid*/
     display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows:auto;
+    grid-template-areas:
+    "header"
+    "teknik"
+    "övrigt"
+    "footer"
+    ;
     background-color: rgb(172, 225, 255);
 }
 
-#teknik{ /*id-attribute med namnet "teknik", en grid med 2 kolumner, en border och en border-raidus*/
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr;
+#teknik{ /*id-attribute med namnet "teknik", en grid-area och 2 kolumner, en border och en border-raidus*/
+    grid-area: teknik;
     border-style: solid;
     border-radius: 20px;
     border-width: 2px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
     
 }
 
@@ -139,13 +147,13 @@ body{ /*En body-element med en bakgrundsfärg och en grid*/
 }
 
 
-#övrigt{ /*Element med id-attribute, en grid med2 columner och en border */
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr ;
+#övrigt{ /*Element med id-attribute, en grid-area och 2 columner och en border */
+   grid-area: övrigt;
     border-style: solid;
     border-radius: 5px; 
     border-width: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 
@@ -210,8 +218,10 @@ a:active{ /*LoVe Focus HAte*/
     color:green;
 }
 
-footer{ /*egenskap för footer-element*/
+footer{ /*egenskap för footer-element och en grid-area*/
+    grid-area: footer;
     margin-top: 100px;
+    
 }
 
 @media screen and (max-width: 800px){ /*egenskap för mobila-enheter*/
